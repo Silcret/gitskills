@@ -10,3 +10,5 @@ git reflog 记录历史命令
 git checkout -- <file> 撤销工作区修改，返回到git add 或 git commit前的状态
 git reset HEAD <file> 撤销暂存区修改，重新放回工作区
 删除文件 工作区 rm <file>    git rm <file>    git commit
+
+git remote add origin git@github.com:michaelliao/learngit.git  关联github仓库
