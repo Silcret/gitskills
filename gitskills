@@ -13,3 +13,9 @@ git reset HEAD <file> 撤销暂存区修改，重新放回工作区
 
 git remote add origin git@github.com:michaelliao/learngit.git  关联github仓库
 git remote rm origin  删除关联
+
+git checkout -b 分支   创建并切换分支   
+相当于 git branch 分支 
+      git checkout 分支 
+
+git branch   查看当前分支  
