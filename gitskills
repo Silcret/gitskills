@@ -19,3 +19,7 @@ git checkout -b 分支   创建并切换分支
       git checkout 分支 
 
 git branch   查看当前分支  
+
+git merge 分支   将指定分支合并到当前分支
+
+git branch -d 分支   删除分支
