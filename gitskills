@@ -26,4 +26,5 @@ git branch -d 分支   删除分支
 
 git merge --no-ff -m "message" 分支   以no-ff方式合并提交
 
+推送分支
 
