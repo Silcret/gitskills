@@ -1,0 +1,12 @@
+
+git init 创建仓库(repository)(版本库)      工作区，暂存区，分支(master)   版本库包括暂存区和分支
+git add <file>  文件添加到暂存区
+git commit -m <message>  文件添加到版本库
+git status 告诉文件是否被修改过,与版本库相比
+git diff <file> 查看修改的内容
+git log 查看最近3次提交记录
+git reset --hard HEAD^(HEAD^^)  版本回退HEAD指向当前版本    git reset --hard commit_id  历史穿梭   
+git reflog 记录历史命令
+git checkout -- <file> 撤销工作区修改，返回到git add 或 git commit前的状态
+git reset HEAD <file> 撤销暂存区修改，重新放回工作区
+删除文件 工作区 rm <file>    git rm <file>    git commit
